@@ -194,6 +194,61 @@ footer {
   }
 }
 
+@media (max-width: 500px) {
+  :root {
+    --bg-url: url(./assets/img/bg/dark_desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/img/bg/light_desktop.jpg);
+  }
+
+  #experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    max-width: 350px;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 24px 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+
+    background: var(--surface-color);
+    /* border: 1px solid var(--stroke-color); */
+    backdrop-filter: blur(4px);
+    /* -webkit-backdrop-filter: blur(4px); */
+
+    border-radius: 8px;
+
+    text-decoration: none;
+    font-weight: 500;
+
+    /* transition: background 0.2s; */
+  }
+
+  #social-links {
+    padding: 0px;
+  }
+
+  footer {
+    padding: 0px;
+  }
+}
+
 @keyframes slide-in {
   from {
     left: 0;
