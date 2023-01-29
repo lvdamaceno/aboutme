@@ -56,7 +56,6 @@ body * {
 
 #profile img {
   width: 112px;
-  border: 0px solid gray;
   border-radius: 50%;
 }
 
@@ -91,9 +90,9 @@ body * {
   animation: slide-in 0.2s forwards;
 }
 
-#switch button:hover {
+/* #switch button:hover {
   outline: 8px solid var(--highlight-color);
-}
+} */
 
 #switch span {
   display: block;
@@ -106,6 +105,20 @@ body * {
   border-radius: 999px;
 }
 
+/***** EXPERIENCE *****/
+#experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  max-width: 400px;
+}
+
+#experience p {
+  font-size: 14px;
+  text-align: justify;
+}
+
 /***** BUTTONS *****/
 
 ul {
@@ -114,6 +127,9 @@ ul {
   flex-direction: column;
   gap: 16px;
   padding: 24px 0;
+  /* width: 300px; */
+  /* justify-content: center; */
+  align-items: center;
 }
 
 ul li a {
@@ -142,7 +158,7 @@ ul li a:hover {
 
 /* SOCIAL LINKS */
 #social-links {
-  padding: 24px 0;
+  padding: 12px 0;
   display: flex;
   justify-content: center;
   font-size: 24px;
@@ -163,7 +179,7 @@ ul li a:hover {
 
 /* FOOTER */
 footer {
-  padding: 24px 0;
+  padding: 12px 0;
   text-align: center;
   font-size: 14px;
 }
