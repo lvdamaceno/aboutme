@@ -184,7 +184,7 @@ footer {
   font-size: 14px;
 }
 
-@media (min-width: 700px) {
+/* @media (min-width: 700px) {
   :root {
     --bg-url: url(./assets/img/bg/dark_desktop.jpg);
   }
@@ -192,9 +192,9 @@ footer {
   .light {
     --bg-url: url(./assets/img/bg/light_desktop.jpg);
   }
-}
+} */
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   :root {
     --bg-url: url(./assets/img/bg/dark_desktop.jpg);
   }
@@ -207,8 +207,14 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 8px;
-    max-width: 350px;
+  }
+
+  #experience p {
+    font-size: 14px;
+    text-align: justify;
+    max-width: 85%;
   }
 
   ul {
