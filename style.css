@@ -27,7 +27,7 @@ TODO
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.2);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg: url(./assets/svg/sun.svg);
+  --switch-bg: url(./assets/svg/Sun.svg);
 }
 
 body {
@@ -44,7 +44,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%px;
+  max-width: 588px;
 }
 
 /***** PROFILE *****/
@@ -161,4 +162,14 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+@media (min-width: 700px) {
+  :root{
+    --bg-url: url(./assets/img/bg/dark_desktop.jpg)
+  }
+
+  .light{
+    --bg-url: url(./assets/img/bg/light_desktop.jpg)
+  }
 }
