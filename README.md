@@ -12,14 +12,14 @@ Um agregador de links para usar como cartão de visitas online.
 </p>
 
 <p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+  <img alt="Um agregador de links para usar como cartão de visitas online." src="https://user-images.githubusercontent.com/7557802/215369940-19a88a9c-ad06-4311-a984-3128cc781ec6.mov" width="60%"> 
+</p>
+
+<p align="center">
+  <img alt="Um agregador de links para usar como cartão de visitas online." src="https://user-images.githubusercontent.com/7557802/215370106-8a86fe0d-592c-44c3-bd42-cbeed998f376.mov" width="60%">
 </p>
 
 <br>
-
-<p align="center">
-  <img alt="Um agregador de links para usar como cartão de visitas online." src="./.github/preview.jpg" width="100%">
-</p>
 
 ## 🚀 Tecnologias
 
